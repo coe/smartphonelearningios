@@ -1,0 +1,6 @@
+framework module Pods_CountIndicator {
+  umbrella header "Pods-CountIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
