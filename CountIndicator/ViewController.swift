@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
-        SVProgressHUD.show()
     }
 
     override func didReceiveMemoryWarning() {
