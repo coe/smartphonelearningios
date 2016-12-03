@@ -1,0 +1,30 @@
+/* Class = "UILabel"; text = "Inning 1"; ObjectID = "1nl-BK-6bZ"; */
+"1nl-BK-6bZ.text" = "1回";
+
+/* Class = "UIButton"; normalTitle = "S"; ObjectID = "F9U-le-2jt"; */
+"F9U-le-2jt.normalTitle" = "S";
+
+/* Class = "UIButton"; normalTitle = "O"; ObjectID = "UBC-FR-x7r"; */
+"UBC-FR-x7r.normalTitle" = "O";
+
+/* Class = "UILabel"; text = "Score 0\n"; ObjectID = "X3K-g8-xm5"; */
+"X3K-g8-xm5.text" = "0点";
+
+/* Class = "UIButton"; normalTitle = "注意事項"; ObjectID = "aOo-BL-vpR"; */
+"aOo-BL-vpR.normalTitle" = "注意事項";
+
+/* Class = "UIButton"; normalTitle = "カウントインジケーター"; ObjectID = "cRR-jW-954"; */
+"cRR-jW-954.normalTitle" = "カウントインジケーター";
+
+/* Class = "UIButton"; normalTitle = "B"; ObjectID = "gaN-Hf-KcT"; */
+"gaN-Hf-KcT.normalTitle" = "B";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "qsX-vt-Nyw"; */
+"qsX-vt-Nyw.normalTitle" = "クリア";
+
+/* Class = "UISegmentedControl"; x4d-Ow-sVL.segmentTitles[0] = "Top"; ObjectID = "x4d-Ow-sVL"; */
+"x4d-Ow-sVL.segmentTitles[0]" = "表";
+
+/* Class = "UISegmentedControl"; x4d-Ow-sVL.segmentTitles[1] = "Bottom"; ObjectID = "x4d-Ow-sVL"; */
+"x4d-Ow-sVL.segmentTitles[1]" = "裏";
+
