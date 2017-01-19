@@ -11,9 +11,24 @@ import UIKit
 class BsoViewController: UIViewController {
 
     @IBOutlet weak var inningLabel: UILabel!
+    @IBOutlet weak var viewB1: UIView!
+    @IBOutlet weak var viewB2: UIView!
+    @IBOutlet weak var viewB3: UIView!
+    @IBOutlet weak var viewS1: UIView!
+    @IBOutlet weak var viewS2: UIView!
+    @IBOutlet weak var viewO1: UIView!
+    @IBOutlet weak var viewO2: UIView!
+    
+    @IBOutlet weak var chengeInning: UIStepper!
+    var countB = 0
+    var countS = 0
+    var countO = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        blackColorB()
+        blackColorS()
+        blackColorO()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -41,4 +56,85 @@ class BsoViewController: UIViewController {
         inningLabel.text = 翻訳された文字に可変する部分があるのでその部分にstepperの数字を当てたもの
     }
     
+    @IBAction func onClickB(_ sender: AnyObject) {
+        countB += 1
+        switch countB {
+        case 1:
+            viewB1.backgroundColor = UIColor.blue
+            break
+        case 2:
+            viewB2.backgroundColor = UIColor.blue
+            break
+        case 3:
+            viewB3.backgroundColor = UIColor.blue
+            break
+        default:
+            blackColorB()
+            blackColorS()
+            break
+        }
+    }
+    
+    @IBAction func onClickS(_ sender: AnyObject) {
+        countS += 1
+        switch countS {
+        case 1:
+            viewS1.backgroundColor = UIColor.yellow
+            break
+        case 2:
+            viewS2.backgroundColor = UIColor.yellow
+            break
+        default:
+            blackColorS()
+            blackColorB()
+            
+            countO += 1
+            if countO == 1 {
+                viewO1.backgroundColor = UIColor.red
+            }else if countO == 2{
+                viewO2.backgroundColor = UIColor.red
+            }else {
+                blackColorO()
+            }
+            break
+        }
+    }
+    
+    @IBAction func onClickO(_ sender: AnyObject) {
+        countO += 1
+        switch countO {
+        case 1:
+            viewO1.backgroundColor = UIColor.red
+            blackColorB()
+            blackColorS()
+            break
+        case 2:
+            viewO2.backgroundColor = UIColor.red
+            blackColorB()
+            blackColorS()
+            break
+        default:
+            blackColorB()
+            blackColorS()
+            blackColorO()
+            break
+        }
+    }
+    
+    func blackColorB(){
+        viewB1.backgroundColor = UIColor.black
+        viewB2.backgroundColor = UIColor.black
+        viewB3.backgroundColor = UIColor.black
+        countB = 0
+    }
+    func blackColorS(){
+        viewS1.backgroundColor = UIColor.black
+        viewS2.backgroundColor = UIColor.black
+        countS = 0
+    }
+    func blackColorO(){
+        viewO1.backgroundColor = UIColor.black
+        viewO2.backgroundColor = UIColor.black
+        countO = 0
+    }
 }
