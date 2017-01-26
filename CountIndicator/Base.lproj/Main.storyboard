@@ -93,6 +93,10 @@
                                     <segment title="Top"/>
                                     <segment title="Bottom"/>
                                 </segments>
+                                <connections>
+                                    <action selector="chenge:" destination="ZhZ-fj-ZSt" eventType="valueChanged" id="Hh2-Kp-yOW"/>
+                                    <action selector="chenge:" destination="ZhZ-fj-ZSt" eventType="touchDown" id="c2D-hi-GT4"/>
+                                </connections>
                             </segmentedControl>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="FWJ-pl-ZvG">
                                 <constraints>
@@ -309,6 +313,7 @@
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="chenge" destination="x4d-Ow-sVL" id="7HZ-GM-YJI"/>
                         <outlet property="chengeInning" destination="h51-LV-huL" id="kTf-6L-IKK"/>
                         <outlet property="inningLabel" destination="1nl-BK-6bZ" id="8Fg-47-ed9"/>
                         <outlet property="viewB1" destination="Lsa-1s-zcS" id="oJ3-0B-ZEp"/>

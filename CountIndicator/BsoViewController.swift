@@ -19,6 +19,7 @@ class BsoViewController: UIViewController {
     @IBOutlet weak var viewO1: UIView!
     @IBOutlet weak var viewO2: UIView!
     
+    @IBOutlet weak var chenge: UISegmentedControl!
     @IBOutlet weak var chengeInning: UIStepper!
     var countB = 0
     var countS = 0
@@ -28,9 +29,21 @@ class BsoViewController: UIViewController {
         blackColorB()
         blackColorS()
         blackColorO()
-        
         // Do any additional setup after loading the view.
+        
     }
+
+    @IBAction func chenge(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            break
+        case 1:
+            break
+        default:
+            break
+        }
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -48,12 +61,13 @@ class BsoViewController: UIViewController {
     }
     */
 
-    @IBAction func onInningChanged(_ sender: Any) {
-        let stepper:UIStepper = sender as! UIStepper
+   
+    @IBAction func onInningChanged(_ sender: UIStepper) {
+        let stepper:UIStepper = sender 
         //"Inning \(Int(stepper.value))"
-        let 翻訳された文字 = NSLocalizedString("inning_with_int", tableName: nil, value: "inning %d", comment: "○回を表す")
-        let 翻訳された文字に可変する部分があるのでその部分にstepperの数字を当てたもの = String(format: 翻訳された文字, Int(stepper.value))
-        inningLabel.text = 翻訳された文字に可変する部分があるのでその部分にstepperの数字を当てたもの
+        let stringValue = NSLocalizedString("inning_with_int", tableName: nil, value: "Inning %d", comment: "○回を表す")
+        let valueText = String(format: stringValue, Int(stepper.value))
+        inningLabel.text = valueText
     }
     
     @IBAction func onClickB(_ sender: AnyObject) {
@@ -95,6 +109,7 @@ class BsoViewController: UIViewController {
                 viewO2.backgroundColor = UIColor.red
             }else {
                 blackColorO()
+                chengeButton()
             }
             break
         }
@@ -117,6 +132,7 @@ class BsoViewController: UIViewController {
             blackColorB()
             blackColorS()
             blackColorO()
+            chengeButton()
             break
         }
     }
@@ -136,5 +152,16 @@ class BsoViewController: UIViewController {
         viewO1.backgroundColor = UIColor.black
         viewO2.backgroundColor = UIColor.black
         countO = 0
+    }
+    func chengeButton(){
+        if chenge.selectedSegmentIndex == 0 {
+            chenge.selectedSegmentIndex = 1
+        }else {
+            chenge.selectedSegmentIndex = 0
+            chengeInning.value += 1
+            self.onInningChanged(chengeInning)
+            
+        }
+        self.chenge(chenge)
     }
 }
