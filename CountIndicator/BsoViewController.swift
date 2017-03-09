@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class BsoViewController: UIViewController {
 
@@ -19,9 +20,13 @@ class BsoViewController: UIViewController {
     @IBOutlet weak var strike2: UIView!
     @IBOutlet weak var out1: UIView!
     @IBOutlet weak var out2: UIView!
+    @IBOutlet weak var banner: GADBannerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        banner.adUnitID = "ca-app-pub-3144823798528433/5833391901"
+        banner.rootViewController = self
+        banner.load(GADRequest())
         //initLabel()
         /*
         clearButton.addTarget(self, action: #selector(BsoViewController.onClickClearButton(_:)), for: .touchUpInside)
