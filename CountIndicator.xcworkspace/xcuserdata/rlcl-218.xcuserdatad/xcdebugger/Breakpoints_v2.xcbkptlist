@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CountIndicator/ViewController.swift"
+            timestampString = "505911456.81762"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CountIndicator.ViewController"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911517.884238"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CountIndicator.ViewController"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911517.885852"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CountIndicator.ViewController&gt;"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911517.887392"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CountIndicator.ViewController&gt;"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911517.888728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CountIndicator/ViewController.swift"
+            timestampString = "505911525.817854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.__deallocating_deinit"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911525.822476"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CountIndicator.ViewController"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911525.824329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CountIndicator.ViewController"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911525.826681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CountIndicator.ViewController&gt;"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911525.828097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CountIndicator.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CountIndicator.ViewController&gt;"
+                  moduleName = "CountIndicator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rlcl-218/workspace/smartphonelearningios/CountIndicator/ViewController.swift"
+                  timestampString = "505911525.829431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
