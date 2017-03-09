@@ -1,3 +1,5 @@
 /* ○回を表す */
 "inning_with_int" = "○回";
 
+/* ○点を表す */
+"score_with_int" = "○点";
