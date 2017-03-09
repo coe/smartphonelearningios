@@ -29,6 +29,7 @@ class BsoViewController: UIViewController {
         blackColorB()
         blackColorS()
         blackColorO()
+        //ffffffffffff
         // Do any additional setup after loading the view.
         
     }
