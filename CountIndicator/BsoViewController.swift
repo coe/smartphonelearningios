@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class BsoViewController: UIViewController {
 
@@ -30,6 +31,7 @@ class BsoViewController: UIViewController {
         blackColorS()
         blackColorO()
         //ffffffffffff
+
         // Do any additional setup after loading the view.
         
     }
@@ -52,7 +54,7 @@ class BsoViewController: UIViewController {
     }
     
 
-    /*
+    /*.
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -165,4 +167,5 @@ class BsoViewController: UIViewController {
         }
         self.chenge(chenge)
     }
+
 }

@@ -30,6 +30,7 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="mDo-l6-H8C"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRR-jW-954">
+
                                 <state key="normal" title="カウントインジケーター"/>
                                 <connections>
                                     <segue destination="ZhZ-fj-ZSt" kind="show" id="4ij-53-hXq"/>
@@ -70,6 +71,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1HM-xn-a3B" customClass="GADBannerView">
+
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Vq2-Bz-B1a"/>
@@ -77,15 +79,21 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="dbE-Xz-wSw">
+
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="H5D-Fn-26I"/>
                                     <constraint firstAttribute="height" constant="26" id="JfX-Qe-NN4"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsX-vt-Nyw">
+
                                 <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="onClickClearButton:" destination="ZhZ-fj-ZSt" eventType="touchUpInside" id="9aj-DC-9DU"/>
+                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="x4d-Ow-sVL">
+
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="EDu-sg-n6H"/>
                                 </constraints>
@@ -99,11 +107,16 @@
                                 </connections>
                             </segmentedControl>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="FWJ-pl-ZvG">
+
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="t3V-uK-H9x"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="onScoreChanged:" destination="ZhZ-fj-ZSt" eventType="valueChanged" id="9Dz-hq-3LT"/>
+                                </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3K-g8-xm5">
+
                                 <string key="text">Score 0
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -111,11 +124,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="743" text="Inning 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nl-BK-6bZ">
+
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="h51-LV-huL">
+
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="sbx-qS-jwi"/>
                                 </constraints>
@@ -126,6 +141,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2RM-rV-HLo">
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1KK-aX-HHO">
+
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iRt-Bq-VA9">
                                                 <subviews>
@@ -180,6 +196,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Brz-sc-1PO">
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9U-le-2jt">
+
                                                         <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                         <state key="normal" title="S"/>
                                                         <connections>
@@ -187,6 +204,7 @@
                                                         </connections>
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siJ-Qo-CKc">
+
                                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="64" id="CVB-75-sSX"/>
@@ -200,6 +218,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghe-yE-vmB">
+
                                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="64" id="MkZ-ng-tcL"/>
@@ -213,6 +232,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GrX-Kf-cNB">
+
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="64" id="DcD-gF-OvM"/>
                                                             <constraint firstAttribute="width" constant="64" id="Got-fw-EWR"/>
@@ -227,12 +247,14 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5Ok-TP-dxu">
+
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBC-FR-x7r">
                                                         <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                         <state key="normal" title="O"/>
                                                         <connections>
                                                             <action selector="onClickO:" destination="ZhZ-fj-ZSt" eventType="touchDown" id="ml2-aU-ttW"/>
+
                                                         </connections>
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wl-4z-JOi">
@@ -323,6 +345,7 @@
                         <outlet property="viewO2" destination="klw-7L-oN6" id="19J-zl-9JM"/>
                         <outlet property="viewS1" destination="siJ-Qo-CKc" id="3Nw-RZ-cLu"/>
                         <outlet property="viewS2" destination="ghe-yE-vmB" id="FCC-AP-LAF"/>
+
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nah-oh-s6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
